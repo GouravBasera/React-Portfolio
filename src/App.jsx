@@ -1,8 +1,12 @@
+import {Home, Header, Footer} from './components/route'
+
 function App() {
 
   return (
     <>
-      Hello
+      <Header/>
+      <Home/>
+      <Footer/>
     </>
   )
 }
