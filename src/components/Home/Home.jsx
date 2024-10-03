@@ -47,32 +47,6 @@ function Home() {
             Software Development.
           </p>
         </div>
-
-        {/* Card */}
-        <div className="cardContainer mb-[120px] flex h-[600px] w-full justify-between">
-          <div className="cardImage w-[50%] rounded-xl bg-[#1A1A1A]"></div>
-          <div className="cardText w-[45%] m-auto border">
-            <h3>Promotional Landing Page for our Favorite Show</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit consectetur unde maxime recusandae cumque dolorum in
-              illo labore laborum similique placeat, aliquid aspernatur iusto
-              laboriosam dicta reiciendis eum, numquam facere tempore at
-              possimus eligendi cupiditate corrupti saepe. Id, tempore a!
-            </p>
-            <table>
-              <th>PROJECT INFO</th>
-              <tr>
-                <td>Year</td>
-                <td>2023</td>
-              </tr>
-              <tr>
-                <td>Role</td>
-                <td>Front-end Developer</td>
-              </tr>
-            </table>
-          </div>
-        </div>
       </div>
       <Card/>
     </>
