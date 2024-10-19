@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -8,10 +9,22 @@ export default function Header() {
           <div className="logo">
             <li>Logo</li>
           </div>
-          <div className="flex w-[207px] justify-evenly ">
-            <li>Work</li>
-            <li>About</li>
-            <li>Contact</li>
+          <div className="flex w-[207px] justify-evenly">
+            <li>
+              <Link className="cursor-pointer" to="project" smooth={true} duration={500}>
+                Work
+              </Link>
+            </li>
+            <li>
+              <Link className="cursor-pointer" to="about" smooth={true} duration={500}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link className="cursor-pointer" to="contact" smooth={true} duration={500}>
+                Contact
+              </Link>
+            </li>
           </div>
         </ul>
       </header>

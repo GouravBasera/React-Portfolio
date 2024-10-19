@@ -1,4 +1,5 @@
-export {default as Home} from './Home/Home'
+export {default as Hero} from './Hero/Hero'
 export {default as Header} from './Header/Header'
 export {default as Footer} from './Footer/Footer'
-export {default as Card} from '../utils/Card'
+export {default as Project} from './Project/Project'
+export {default as About} from './About/About'

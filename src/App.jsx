@@ -1,11 +1,13 @@
-import {Home, Header, Footer} from './components/route'
+import {Hero, Project, About, Header, Footer} from './components/route'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Home/>
+      <Hero/>
+      <Project/>
+      <About/>
       <Footer/>
     </>
   )
