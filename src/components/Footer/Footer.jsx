@@ -41,22 +41,26 @@ export default function Footer() {
               </button>
             </p>
             <div className="flex justify-between w-52">
-              <FontAwesomeIcon
+              <a href="https://linkedin.com/in/gourav-basera"><FontAwesomeIcon
                 icon={faLinkedinIn}
                 style={{ color: "#D3E97A", height: 32 }}
-              />
-              <FontAwesomeIcon
+              /></a>
+              <a href="https://github.com/gouravbasera"><FontAwesomeIcon
                 icon={faGithub}
                 style={{ color: "#D3E97A", height: 32 }}
               />
+              </a>
+              <a href="https://x.com/Gaurav97357243">
               <FontAwesomeIcon
                 icon={faXTwitter}
                 style={{ color: "#D3E97A", height: 32 }}
               />
-              <FontAwesomeIcon
+              </a>
+              <a href="https://www.instagram.com/thecaffinatedgeek/"><FontAwesomeIcon
                 icon={faInstagram}
                 style={{ color: "#D3E97A", height: 32 }}
               />
+              </a>
             </div>
           </div>
           <div className="w-[50%] text-[#C7C7C7] h-[90vh]">
