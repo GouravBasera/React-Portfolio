@@ -13,7 +13,7 @@ export default function Project() {
         "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
       year: "2023",
       role: "Wordpress Developer",
-      imageUrl: "undefined",
+      imageUrl: "/assets/images/Fitnesstack.png",
       liveLink: "https://www.fitnesstack.com",
       githubLink: "",
     },
@@ -24,7 +24,7 @@ export default function Project() {
         "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
       year: "2022",
       role: "Wordpress Developer",
-      imageUrl: "undefined",
+      imageUrl: "/assets/images/NatrajProperties.png",
       liveLink: "https://natrajproperties.com/",
       githubLink: "undefined",
     },
@@ -35,7 +35,7 @@ export default function Project() {
         "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
       year: "2024",
       role: "Junior Web Developer",
-      imageUrl: "undefined",
+      imageUrl: "/assets/images/AroundWithin.png",
       liveLink: "https://zummit-chandan.vercel.app/",
       githubLink: "https://github.com/Vaibhav-Thalanki/Zummit",
     },
@@ -57,7 +57,9 @@ export default function Project() {
             key={index}
           >
             <div className="cardContainer text-white mb-[120px] flex h-[600px] w-full justify-between">
-              <div className="cardImage w-[50%] rounded-xl bg-[#1A1A1A]"></div>
+              <div className="cardImage w-[50%] flex justify-center items-center rounded-xl bg-[#1A1A1A]">
+                <img src={dataSet.imageUrl} alt="" className="object-fill w-[486px] h-[347px]"/>
+              </div>
               <div className="cardText w-[45%] m-auto">
                 <h3 className="text-3xl font-medium mb-4">{dataSet.heading}</h3>
                 <p className="mb-8 text-[#C7C7C7]">{dataSet.description}</p>
