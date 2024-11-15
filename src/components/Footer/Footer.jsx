@@ -29,7 +29,7 @@ export default function Footer() {
                 onClick={() => {
                   const link = document.createElement("a");
                   link.href =
-                    "/public/assets/gourav basera - software developer.pdf";
+                    "/dist/assets/gourav basera - software developer.pdf";
                   link.download = "Gourav Basera";
                   document.body.appendChild(link);
                   link.click();
