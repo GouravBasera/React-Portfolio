@@ -7,7 +7,7 @@ export default function Header() {
       <header className="mx-14 text-white font-medium">
         <ul className="flex justify-between items-center h-[14vh] w-{100%}">
           <div className="logo">
-            <li>Logo</li>
+            <li>Gourav Basera</li>
           </div>
           <div className="flex w-[207px] justify-evenly">
             <li>
